@@ -15,12 +15,12 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CACHE_RULES = {
     ".css": 600,       # 10 minut
     ".js": 600,        # 10 minut
-    ".png": 3600,      # 1 hodina
-    ".jpg": 3600,
-    ".jpeg": 3600,
-    ".webp": 3600,
-    ".avif": 3600,
-    ".svg": 3600,
+    ".png": 86400,     # 1 den
+    ".jpg": 86400,
+    ".jpeg": 86400,
+    ".webp": 86400,
+    ".avif": 86400,
+    ".svg": 86400,
 }
 
 
